@@ -1,0 +1,55 @@
+.intro-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background-image: url(../images/p0.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.about-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background-image: url(../images/p1.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.news-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background-image: url(../images/p2.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.service-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background-image: url(../images/p3.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.contact-section {
+	height: 100%;
+	padding-top: 150px;
+	text-align: center;
+	background-image: url(../images/p4.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.row-bg {
+	background-color: rgba(255,255,255,0.68);
+	border-radius: 30px;
+	padding-bottom: 50px;
+}

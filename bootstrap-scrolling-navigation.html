@@ -7,8 +7,9 @@
   	<title>Bootstrap Scrolling Navigation</title>
   	<!-- Bootstrap -->
   	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+  	<link href="css/bootstrap-scrolling-navigation.css" rel="stylesheet">
   </head>
-  <body style="padding-top: 70px">
+  <body style="padding-top: 70px" id="page-top">
   	<!-- body code goes here -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#"><img src="images/logo.png"/></a>
@@ -19,19 +20,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
       	<ul class="navbar-nav ml-auto">
       	  <li class="nav-item active">
-      	  	<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+      	  	<a class="nav-link" href="#page-top">Home<span class="sr-only">(current)</span></a>
       	  </li>
       	  <li class="nav-item">
-      	  	<a class="nav-link" href="#">About</a>
+      	  	<a class="nav-link js-scroll-trigger" href="#about">About</a>
       	  </li>
       	  <li class="nav-item">
-      	  	<a class="nav-link" href="#">News</a>
+      	  	<a class="nav-link js-scroll-trigger" href="#news">News</a>
       	  </li>
       	  <li class="nav-item">
-      	  	<a class="nav-link" href="#">Service</a>
+      	  	<a class="nav-link js-scroll-trigger" href="#service">Service</a>
       	  </li>
       	  <li class="nav-item">
-      	  	<a class="nav-link" href="#">Contact</a>
+      	  	<a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
       	  </li>
       	  <!-- 
       	  <li class="nav-item">
@@ -58,11 +59,74 @@
       </div>
     </nav>
 
+    <section id="intro" class="intro-section">
+      <div class="container">
+      	<div class="row">
+      	  <div class="col-xl-12">
+      	  	<h1>Scrolling Nav</h1>
+      	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non rhoncus dui, eget sodales arcu. Integer consequat vel leo eget porttitor. Nunc eget lorem at nibh ultricies varius in vitae justo. Sed elementum facilisis justo, id pulvinar metus porta sed. Mauris et nisl eu nisi vehicula tincidunt eget nec erat. Nullam malesuada odio vel tortor eleifend, nec consectetur leo volutpat. Maecenas consectetur interdum tempus.</p>
+      	  </div>
+      	</div>
+      </div> 
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+      	<div class="row row-bg">
+      	  <div class="col-xl-12">
+      	  	<h1>About</h1>
+      	  </div>
+      	  <div class="col-xl-6">
+      	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non rhoncus dui, eget sodales arcu. Integer consequat vel leo eget porttitor. Nunc eget lorem at nibh ultricies varius in vitae justo. Sed elementum facilisis justo, id pulvinar metus porta sed. Mauris et nisl eu nisi vehicula tincidunt eget nec erat. Nullam malesuada odio vel tortor eleifend, nec consectetur leo volutpat. Maecenas consectetur interdum tempus.</p>
+      	  </div>
+      	  <div class="col-xl-6">
+      	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non rhoncus dui, eget sodales arcu. Integer consequat vel leo eget porttitor. Nunc eget lorem at nibh ultricies varius in vitae justo. Sed elementum facilisis justo, id pulvinar metus porta sed. Mauris et nisl eu nisi vehicula tincidunt eget nec erat. Nullam malesuada odio vel tortor eleifend, nec consectetur leo volutpat. Maecenas consectetur interdum tempus.</p>
+      	  </div>
+      	</div>
+      </div> 
+    </section>
+
+    <section id="news" class="news-section">
+      <div class="container">
+      	<div class="row">
+      	  <div class="col-xl-12">
+      	  	<h1>News</h1>
+      	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non rhoncus dui, eget sodales arcu. Integer consequat vel leo eget porttitor. Nunc eget lorem at nibh ultricies varius in vitae justo. Sed elementum facilisis justo, id pulvinar metus porta sed. Mauris et nisl eu nisi vehicula tincidunt eget nec erat. Nullam malesuada odio vel tortor eleifend, nec consectetur leo volutpat. Maecenas consectetur interdum tempus.</p>
+      	  </div>
+      	</div>
+      </div> 
+    </section>
+
+    <section id="service" class="service-section">
+      <div class="container">
+      	<div class="row">
+      	  <div class="col-xl-12">
+      	  	<h1>Service</h1>
+      	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non rhoncus dui, eget sodales arcu. Integer consequat vel leo eget porttitor. Nunc eget lorem at nibh ultricies varius in vitae justo. Sed elementum facilisis justo, id pulvinar metus porta sed. Mauris et nisl eu nisi vehicula tincidunt eget nec erat. Nullam malesuada odio vel tortor eleifend, nec consectetur leo volutpat. Maecenas consectetur interdum tempus.</p>
+      	  </div>
+      	</div>
+      </div> 
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+      	<div class="row">
+      	  <div class="col-xl-12">
+      	  	<h1>Contact</h1>
+      	  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non rhoncus dui, eget sodales arcu. Integer consequat vel leo eget porttitor. Nunc eget lorem at nibh ultricies varius in vitae justo. Sed elementum facilisis justo, id pulvinar metus porta sed. Mauris et nisl eu nisi vehicula tincidunt eget nec erat. Nullam malesuada odio vel tortor eleifend, nec consectetur leo volutpat. Maecenas consectetur interdum tempus.</p>
+      	  </div>
+      	</div>
+      </div> 
+    </section>
+
     <!-- jQuery (necessary for Bootstrap's Javascript plugins) -->
     <script src="js/jquery-3.3.1.min.js"></script>
 
     <!-- include all compiled plugins (below), or include individual files as needed -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap-4.3.1.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/freelancer.min.js"></script>
   </body>
 </html>
